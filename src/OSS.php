@@ -19,7 +19,6 @@ use xzncit\exception\OSSException;
  * @package xzncit
  * @class OSS
  * @author xzncit 2023-08-26
- * @method \xzncit\aliyuncs Aliyuncs($options=[])
  */
 class OSS {
 
@@ -27,7 +26,7 @@ class OSS {
      * Current version of program
      * @var string
      */
-    public static $version = "1.0";
+    public static $version = "1.0.2";
 
     /**
      * @param $name

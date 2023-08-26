@@ -1,6 +1,6 @@
 {
     "name": "xzncit/oss",
-    "description": "PHP Development OSS",
+    "description": "PHP OSS",
     "type": "library",
     "keywords": ["framework","sdk","oss"],
     "homepage": "http://www.a3-mall.com/",
@@ -12,10 +12,8 @@
         }
     ],
     "require": {
-        "php": ">=7.2.5",
+        "php": ">=7.2",
         "monolog/monolog": "^2.0",
-        "ext-fileinfo": "*",
-        "ext-simplexml": "*",
         "guzzlehttp/guzzle": "^7.0",
         "symfony/cache": "^4.4",
         "pimple/pimple": "^3.0",

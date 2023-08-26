@@ -17,9 +17,6 @@
 #### 环境要求
 - PHP >= 7.2.5
 - Composer
-- Openssl PHP Extension
-- MBstring PHP Extension
-- FileInfo PHP Extension
 
 #### 安装
 ```
