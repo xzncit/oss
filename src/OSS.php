@@ -71,7 +71,7 @@ class OSS {
         // 腾讯COS
         if($name == "qcloud"){
             if(!empty($options["domain"])){
-                return trim($options["tencent"]["domain"],"/") . "/" . $image;
+                return trim($options["domain"],"/") . "/" . $image;
             }
 
             $endpoint = "https://" . $options["bucket"] . ".cos." . $options["endpoint"] . ".myqcloud.com";
