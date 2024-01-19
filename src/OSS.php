@@ -26,7 +26,7 @@ class OSS {
      * Current version of program
      * @var string
      */
-    public static $version = "1.0.2";
+    public static $version = "1.0.4";
 
     /**
      * @param $name
@@ -36,7 +36,7 @@ class OSS {
      * @throws ConfigNotFoundException
      */
     public static function create($name,$options=[]){
-        $obj = "\\xzncit\\" . strtolower($name) . "\\" . $name;
+        $obj = "\\xzncit\\" . strtolower($name) . "\\" . ucfirst($name);
 
         if(!class_exists($obj)){
             throw new ClassNotFoundException("class [$name] does not exist",0);
