@@ -117,4 +117,11 @@ class Qiniu {
         ]);
     }
 
+    /**
+     * @return string
+     */
+    public function getType(){
+        return "qiniu";
+    }
+
 }

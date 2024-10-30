@@ -154,4 +154,11 @@ class Qcloud {
         ]);
     }
 
+    /**
+     * @return string
+     */
+    public function getType(){
+        return "qcloud";
+    }
+
 }

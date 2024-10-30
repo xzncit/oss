@@ -26,7 +26,7 @@ class OSS {
      * Current version of program
      * @var string
      */
-    public static $version = "1.0.4";
+    public static $version = "1.0.5";
 
     /**
      * @param $name

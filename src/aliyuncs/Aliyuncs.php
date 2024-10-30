@@ -149,4 +149,11 @@ class Aliyuncs {
         ]);
     }
 
+    /**
+     * @return string
+     */
+    public function getType(){
+        return "aliyuncs";
+    }
+
 }
